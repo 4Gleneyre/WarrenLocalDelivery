@@ -8,12 +8,13 @@
   box-sizing: border-box;
 }
 
+img {width: 85px;}
 #myInput {
   background-position: 10px 10px;
   background-repeat: no-repeat;
   width: 100%;
   font-size: 16px;
-  padding: 12px 20px 12px 40px;
+  padding: 12px 20px 12px 20px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
@@ -42,8 +43,8 @@
 <body class="w3-container">
 
 <h2>Warren Local Delivery Grocery Catalog</h2>
-
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+<p>This is a catalog of some of the most popular grocery items that we deliver.  Note that this catalog does not contain all the products at ACME.  As long as the product is at ACME, we will be able to deliver it for you.  On the Google Forms, list all the grocery items you wish to be delivered, including the quantity and item name.  Below, there is a search bar where you can search for any item in our catalog.  Thank you for your cooperation.</P>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for an item..." title="Type in a name">
 
 <table id="myTable">
   <tr class="header">
